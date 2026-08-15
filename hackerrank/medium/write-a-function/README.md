@@ -1,4 +1,4 @@
-# Python If-Else
+# Write a function
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -41,27 +41,17 @@ The function must return a Boolean value (True/False).  Output is handled by the
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-14T13:50:14.401Z  
+**Submitted:** 2026-08-15T14:07:40.513Z  
 
 ```py
-#!/bin/python3
+def is_leap(year):
+    leap = False
+    
+    # Write your logic here
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        leap = True
+    return leap
 
-import math
-import os
-import random
-import re
-import sys
-
-
-
-if __name__ == '__main__':
-    n = int(input().strip())
-
-    if n % 2 != 0 or 6<=n<=20:
-        print("Weird")
-    else:
-        if 2<=n<=5 or n>20: 
-            print("Not Weird")
 
 ```
 
