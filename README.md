@@ -14,7 +14,7 @@
 
 ## 📊 Stats
 
-| Difficulty | Solved |
+| Difficulty | Solved |      
 |:---:|:---:|
 | 🟢 Easy | **0** |
 | 🟡 Medium | **25** |
